@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\nanopb">
+      <UniqueIdentifier>{b377a2ba-81f2-409b-9c0b-ee120bff0c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\nanopb">
+      <UniqueIdentifier>{64205a73-9db6-4f14-be69-69ed88731a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\messages">
+      <UniqueIdentifier>{00ca3e34-b211-4fa1-8018-a7006ce42934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\messages">
+      <UniqueIdentifier>{c02a2f12-ca5c-43d8-9244-e45d5316bd84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\decode">
+      <UniqueIdentifier>{b72398ec-c793-4b45-9a12-be3dc8a11b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\decode">
+      <UniqueIdentifier>{ebb4253d-0b00-4974-8d9f-c6394edec4b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DE_MSG.h">
@@ -30,6 +48,30 @@
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="nanopb\pb.h">
+      <Filter>头文件\nanopb</Filter>
+    </ClInclude>
+    <ClInclude Include="nanopb\pb_common.h">
+      <Filter>头文件\nanopb</Filter>
+    </ClInclude>
+    <ClInclude Include="nanopb\pb_decode.h">
+      <Filter>头文件\nanopb</Filter>
+    </ClInclude>
+    <ClInclude Include="nanopb\pb_encode.h">
+      <Filter>头文件\nanopb</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\messages.pb.h">
+      <Filter>头文件\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\types.pb.h">
+      <Filter>头文件\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\decode.h">
+      <Filter>头文件\decode</Filter>
+    </ClInclude>
+    <ClInclude Include="typedef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DE_MSG.cpp">
@@ -40,6 +82,24 @@
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nanopb\pb_common.c">
+      <Filter>源文件\nanopb</Filter>
+    </ClCompile>
+    <ClCompile Include="nanopb\pb_decode.c">
+      <Filter>源文件\nanopb</Filter>
+    </ClCompile>
+    <ClCompile Include="nanopb\pb_encode.c">
+      <Filter>源文件\nanopb</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\messages.pb.c">
+      <Filter>源文件\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\types.pb.c">
+      <Filter>源文件\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="decode\decode.c">
+      <Filter>源文件\decode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -25,12 +25,6 @@
     <Filter Include="源文件\messages">
       <UniqueIdentifier>{c02a2f12-ca5c-43d8-9244-e45d5316bd84}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件\decode">
-      <UniqueIdentifier>{b72398ec-c793-4b45-9a12-be3dc8a11b03}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\decode">
-      <UniqueIdentifier>{ebb4253d-0b00-4974-8d9f-c6394edec4b8}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DE_MSG.h">
@@ -66,9 +60,6 @@
     <ClInclude Include="messages\types.pb.h">
       <Filter>头文件\messages</Filter>
     </ClInclude>
-    <ClInclude Include="decode\decode.h">
-      <Filter>头文件\decode</Filter>
-    </ClInclude>
     <ClInclude Include="typedef.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -98,9 +89,6 @@
     <ClCompile Include="messages\types.pb.c">
       <Filter>源文件\messages</Filter>
     </ClCompile>
-    <ClCompile Include="decode\decode.c">
-      <Filter>源文件\decode</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DEMSG.rc">
@@ -111,6 +99,7 @@
     <None Include="res\DEMSG.rc2">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="Version_Info.htm" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\DE_MSG.ico">

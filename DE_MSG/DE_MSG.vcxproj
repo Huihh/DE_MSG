@@ -76,7 +76,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG;D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG\nanopb;D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG\messages;$(IncludePath)</IncludePath>
+    <IncludePath>D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG;D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG\nanopb;D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG\messages;D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG\algorithm;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -186,6 +186,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="algorithm\base58.h" />
     <ClInclude Include="DE_MSG.h" />
     <ClInclude Include="DE_MSGDlg.h" />
     <ClInclude Include="messages\messages.pb.h" />
@@ -200,6 +201,7 @@
     <ClInclude Include="typedef.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="algorithm\base58.c" />
     <ClCompile Include="DE_MSG.cpp" />
     <ClCompile Include="DE_MSGDlg.cpp" />
     <ClCompile Include="messages\messages.pb.c" />

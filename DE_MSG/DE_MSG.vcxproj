@@ -83,7 +83,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG;D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG\nanopb;D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG\messages;$(IncludePath)</IncludePath>
+    <IncludePath>D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG;D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG\nanopb;D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG\messages;D:\Software_Develop\VS_2017\WorkSpace\DE_MSG\DE_MSG\algorithm;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -147,6 +147,8 @@
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>nafxcw.lib;LIBCMT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>nafxcw.lib;LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
